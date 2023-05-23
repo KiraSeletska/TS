@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rows {
+    display: flex;
+    flex-direction: row;
+   
+}
+.square1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.squareClick {
+    background-image: url(./img/57b2e2643a29215692c4578e.png)
+}
+.red {
+    background-color: red;
+}
+.square:hover {
+    background-color: rgb(174, 255, 174);
+}
+.main {
+    margin: 50px 50px;
+  
+}
+#root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.stateBtn{
+width: 50px;
+height: 20px;
+background-color: rgb(221, 221, 221);
+border-color: white;
+border-radius: 15%;
+}
+.fieldSQ{
+    width: 205px;
+    height: 205px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.square{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.squareClick1 {
+    background-image: url(./img/1.png)
+}
