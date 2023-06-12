@@ -1,0 +1,95 @@
+button {
+  background-color: #13111b;
+  border-radius: 5px;
+  border-color: #03afbd;
+  color: #ffd885;
+  margin: 5px;
+  width: 70px;
+}
+button:hover {
+  color: #03afbd;
+}
+
+.done {
+  text-decoration: line-through;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #03afbd;
+  align-items: center;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: #fdeac1;
+  align-items: center
+}
+.hide {
+  display: none;
+}
+
+.form {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.form > input {
+  width: 79%;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #085259;
+  color: #fdeac1;
+}
+.formWraper {
+  width: 400px;
+  margin: auto;
+  height: 100vh;
+  background-color: rgb(19, 17, 28, 0.8);
+  padding: 10px;
+}
+
+.stateBtn {
+  font-size: 10px;
+  color: rgb(131, 255, 8);
+  width: 50px;
+  height: 20px;
+  background-color: rgb(87, 87, 87);
+}
+.buttonMenu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.buttonMenu p{
+
+  margin: 0;
+}
+
+.deletBtn {
+  border: none;
+  background-color: rgba(28, 28, 28, 0);
+  width: auto;
+}
+.deletBtn:hover {
+  color: rgb(248, 114, 114);
+}
+.time{
+  font-size: 10px;
+}
+.descr{
+    width: 100%;
+}
